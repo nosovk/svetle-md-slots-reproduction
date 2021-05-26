@@ -1,0 +1,117 @@
+:root {
+  // fonts
+  --avenir: 'Avenir Next Cyr', sans-serif;
+  --monserrat: 'Montserrat', sans-serif;
+
+  // colors
+  --color-bg: #f7f6fb;
+  --color-primary: #2239af;
+  --color-secondary: #F1D810      ;
+  --color-disabled: #8d8c9c;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-dark: #131a36;
+  --color-text-disabled: rgba(28, 25, 57, 0.5);
+  --color-footer-bg: #1d2649;
+  --color-menu-hover: rgba(66, 91, 208, 0.2);
+  --color-desktop-menu-bg: rgba(19, 26, 54, 0.85);
+  --color-header-btn-bg: #2b3b79;
+  --color-shadow: rgba(138, 149, 158, 0.2);
+
+  // hero
+  --color-hero-bg: linear-gradient(194.26deg, #05269c -16.23%, #3359df 102.26%);
+
+  // font-weight
+  --weight-100: 100;
+  --weight-200: 200;
+  --weight-300: 300;
+  --weight-400: 400;
+  --weight-500: 500;
+  --weight-600: 600;
+  --weight-700: 700;
+  --weight-800: 800;
+  --weight-900: 900;
+
+  // table
+  --color-thead-odd: var(--color-dark);
+  --color-thead-even: #25305c;
+  --color-tbody-col-even: #eee;
+  --color-tbody-col-odd: var(--color-white);
+
+  // popups
+  --color-popup-bg: linear-gradient(123.55deg, #1a2a98 30.06%, #2e51d4 107.32%);
+  --popup-blur: rgba(50, 73, 181, 0.9);
+
+  // shadows
+  --hero-text-shadow: 0 0 .3rem var(--color-dark);
+  --error-inner-shadow: inset 0.125rem 0.125rem 0.125rem #f8d9dd;
+  --popup-content-shadow: 0 1.25rem 3.125rem rgba(0, 0, 0, 0.06);
+  --box-shadow: 0 1rem 2rem var(--color-shadow);
+  --avatar-shadow: drop-shadow(0 0.625rem 1.25rem rgba(0, 0, 0, 0.08));
+  --dropdown-shadow: 0 var(--size-24) var(--size-50) var(--color-shadow);
+
+  // text
+  --color-text-card-title: rgba(28, 25, 57, 0.8);
+  --color-text-hero-subtitle: rgba(255, 255, 255, 0.8);
+  --color-text-increase: #70ca59;
+  --color-text-info: #233ab1;
+  --color-text-decrease: #ff5d5d;
+  --color-text-light: #a4a4a4;
+  --color-text-gray: rgba(184, 184, 184, 0.8);
+  --color-text-white: var(--color-white);
+  --color-text-dark: var(--color-dark);
+  --color-text-black: var(--color-black);
+  --color-input-danger: #fd4748;
+  --color-text-danger: #ff0d0d;
+  --color-text-subfooter: #303d73;
+  --color-header-light: #505050;
+  --color-text-link: #2742b8;
+  --color-text-link-hover: #3e68ef;
+  --color-card-tag: #493597;
+  --color-icon-more: #1c2e9e;
+  --color-placeholder: #adadad;
+
+  // product icons
+  --color-product-icon-1: #3e68ef;
+  --color-product-icon-2: #b071db;
+  --color-product-icon-3: #f26591;
+  --color-product-icon-4: #7165e3;
+  --color-icon: #feca40;
+
+  // btn
+  --btn-secondary-bg: linear-gradient(180deg, #f1d810 0%, #d58707 100%);
+
+  // sizes
+  --size-8: 0.5rem;
+  --size-10: 0.625rem;
+  --size-12: 0.75rem;
+  --size-14: 0.875rem;
+  --size-16: 1rem;
+  --size-18: 1.125rem;
+  --size-20: 1.25rem;
+  --size-22: 1.375rem;
+  --size-24: 1.5rem;
+  --size-30: 1.875rem;
+  --size-32: 2rem;
+  --size-36: 2.25rem;
+  --size-40: 2.5rem;
+  --size-50: 3.125rem;
+  --size-58: 3.625rem;
+
+  // borders
+  --color-border: #d2d1d7;
+
+  // border-radius
+  --br-rounded: 50%;
+  --br-10: var(--size-10);
+  --br-16: var(--size-16);
+  --br-20: var(--size-20);
+  --br-25: 1.56rem;
+  --br-40: var(--size-40);
+
+  // height
+  --height-header: 4.375rem;
+
+  // filters
+  --desktop-menu-filter: blur(var(--size-30));
+}
